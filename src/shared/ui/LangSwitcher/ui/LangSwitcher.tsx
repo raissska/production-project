@@ -8,22 +8,22 @@ interface LangSwitcherProps {
 }
 
 export const LangSwitcher: React.FC<LangSwitcherProps> = (props) => {
-  const { className } = props;
+    const { className } = props;
 
-  const { t, i18n } = useTranslation()
+    const { t, i18n } = useTranslation()
 
-  const toggle = () => {
-    i18n.changeLanguage(i18n.language === 'he' ? 'en' : 'he')
-  }
+    const toggle = () => {
+        i18n.changeLanguage(i18n.language === 'he' ? 'en' : 'he')
+    }
 
-  return (
-    <div >
-      <Button
-        className={classNames(cls.langSwitcher, {}, [className])}
-        theme={ThemeButton.CLEAR}
-        onClick={toggle}>
-        {t('language')}
-      </Button>
-    </div>
-  );
+    return (
+        <div >
+            <Button
+                className={classNames(cls.langSwitcher, {}, [className])}
+                theme={ThemeButton.CLEAR}
+                onClick={toggle}>
+                {t('language')}
+            </Button>
+        </div>
+    );
 }
