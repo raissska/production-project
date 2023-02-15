@@ -2,7 +2,8 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
-        node: true
+        node: true,
+        jest: true
     },
     extends: [
         'eslint:recommended',
@@ -41,6 +42,7 @@ module.exports = {
         'react/react-in-jsx-scope': 'off',
         'no-useless-escape': 'off',
         'i18next/no-literal-string': ['error', { markupOnly: true }],
-        
+        "no-empty-function": "off",
+        "@typescript-eslint/no-empty-function": "off"
     }
 };
