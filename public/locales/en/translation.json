@@ -1,7 +1,9 @@
 {
-  "about":"About us",
-  "main":"Main",
-  "language":"Hebrew"
- 
-  
+  "about": "About us",
+  "main": "Main",
+  "language": "Hebrew",
+  "notFound": "Page not found",
+  "errorPage": "An unexpected error has occurred",
+  "updatePage": "Update Page",
+  "throw error": "throw error"
 }

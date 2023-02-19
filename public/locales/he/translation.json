@@ -1,5 +1,9 @@
 {
-  "about":"לגבי האתר",
-  "main":"בית",
-  "language":"English"
+  "about": "לגבי האתר",
+  "main": "בית",
+  "language": "English",
+  "notFound": "הדף לא נמצה",
+  "errorPage": "שגיאה בלתי צפויה התרחשה",
+  "updatePage":"עדכון עמוד",
+  "throw error": "throw error"
 }
