@@ -1,13 +1,13 @@
-import { classNames } from "shared/lib/classNames/classNames";
-import { AppLink } from "shared/ui/AppLink/AppLink";
-import cls from './Navbar.module.scss'
-import { useTranslation } from "react-i18next"
+import { classNames } from 'shared/lib/classNames/classNames';
+import { AppLink } from 'shared/ui/AppLink/AppLink';
+import { useTranslation } from 'react-i18next';
+import cls from './Navbar.module.scss';
+
 interface NavbarProps {
   className?: string;
 }
 
 export const Navbar = ({ className }: NavbarProps) => {
-
     const { t } = useTranslation();
 
     return (
@@ -18,14 +18,18 @@ export const Navbar = ({ className }: NavbarProps) => {
             <div className={cls.right}>
                 <input type="checkbox" className={`${cls.checkbox} ${cls.check}`} id="check" />
                 <label htmlFor="check" className={cls.checkBtn}>
-                    <i className="fa fa-bars">Nav</i>
+                    <i className="fa fa-bars">!</i>
                 </label>
                 <ul className={cls.list}>
-                    <li><AppLink to={'/about'}>{t('about')}</AppLink></li>
-                    <li><AppLink to={'/'}> {t('main')}</AppLink></li>
+                    <li><AppLink to="/about">{t('about')}</AppLink></li>
+                    <li>
+                        <AppLink to="/">
+                            {' '}
+                            {t('main')}
+                        </AppLink>
+                    </li>
                 </ul>
             </div>
         </div>
     );
 };
-

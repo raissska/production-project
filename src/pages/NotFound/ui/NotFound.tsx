@@ -1,3 +1,4 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './NotFound.module.scss';
@@ -14,4 +15,4 @@ export const NotFound: React.FC<NotFoundProps> = (props) => {
             {t('notFound')}
         </div>
     );
-}
+};

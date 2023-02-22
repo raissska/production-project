@@ -48,7 +48,17 @@ module.exports = {
                 ignoreAttribute: ['data-testid', 'to'],
             },
         ],
-        'max-len': ['error', { ignoreComments: true, code: 100 }],
+        'max-len': ['error', { ignoreComments: true, code: 130 }],
+        'jsx-a11y/label-has-associated-control': ['error', {
+            required: {
+                some: ['nesting', 'id'],
+            },
+        }],
+        'jsx-a11y/label-has-for': ['error', {
+            required: {
+                some: ['nesting', 'id'],
+            },
+        }],
     },
     globals: {
         __IS_DEV__: true,
