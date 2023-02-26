@@ -5,6 +5,7 @@
   justify-content: space-around;
   align-items: center;
   line-height: 5rem;
+  min-height: var(--navbar-height);
 }
 
 .left {
@@ -35,26 +36,6 @@
   float: right;
   color: #ed1e79;
   line-height: 80px;
-}
-
-.right ul {
-  display: flex;
-  list-style: none;
-}
-
-.right ul li a {
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  color: var(--primary-color);
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 1s;
-}
-
-.right ul li a:hover {
-  background-color: #fff;
-  border-radius: 7px;
-  color: rgb(22 7 36);
 }
 
 @media screen and (max-width: 805px) {

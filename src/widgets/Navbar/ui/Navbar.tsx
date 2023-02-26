@@ -16,19 +16,11 @@ export const Navbar = ({ className }: NavbarProps) => {
                 {/* <h1>Navbar</h1> */}
             </div>
             <div className={cls.right}>
-                <input type="checkbox" className={`${cls.checkbox} ${cls.check}`} id="check" />
+                {/* <input type="checkbox" className={`${cls.checkbox} ${cls.check}`} id="check" />
                 <label htmlFor="check" className={cls.checkBtn}>
                     <i className="fa fa-bars">!</i>
-                </label>
-                <ul className={cls.list}>
-                    <li><AppLink to="/about">{t('about')}</AppLink></li>
-                    <li>
-                        <AppLink to="/">
-                            {' '}
-                            {t('main')}
-                        </AppLink>
-                    </li>
-                </ul>
+                </label> */}
+
             </div>
         </div>
     );

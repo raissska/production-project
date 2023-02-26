@@ -1,9 +1,11 @@
 {
   "Toggle": "",
   "about": "",
+  "aboutPage": "aboutPage",
   "errorPage": "",
   "language": "",
   "main": "",
+  "mainPage": "mainPage",
   "notFound": "",
   "throw error": "",
   "updatePage": ""
