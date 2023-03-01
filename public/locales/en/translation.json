@@ -8,5 +8,7 @@
   "throw error": "throw error",
   "toggle": "Toggle",
   "shortlang": "He",
-  "login": "Login"
+  "login": "Login",
+  "increment": "increment",
+  "decrement": "decrement"
 }
