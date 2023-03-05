@@ -10,6 +10,8 @@
   "main": "main",
   "mainPage": "mainPage",
   "notFound": "notFound",
+  "password": "password",
   "throw error": "throw error",
-  "updatePage": "updatePage"
+  "updatePage": "updatePage",
+  "userName": "userName"
 }

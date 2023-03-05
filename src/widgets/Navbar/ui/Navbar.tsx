@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Modal } from 'shared/ui/Modal/Modal';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { useCallback, useState } from 'react';
+import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.scss';
 
 interface NavbarProps {
@@ -13,10 +14,16 @@ export const Navbar = ({ className }: NavbarProps) => {
     const { t } = useTranslation();
     const [isAuthModal, setIsAuthModal] = useState(false);
 
-    const onToggleModal = useCallback(() => {
+    const onCloseModal = useCallback(() => {
         console.log('onToggleModal');
 
         setIsAuthModal((prev) => !prev);
+    }, []);
+
+    const onShowModal = useCallback(() => {
+        console.log('onShowModal');
+
+        setIsAuthModal(true);
     }, []);
 
     return (
@@ -28,19 +35,12 @@ export const Navbar = ({ className }: NavbarProps) => {
                 <Button
                     theme={ButtonTheme.CLEAR}
                     className={cls.links}
-                    onClick={onToggleModal}
+                    onClick={onShowModal}
 
                 >
                     {t('login')}
                 </Button>
-                <Modal isOpen={isAuthModal} onClose={onToggleModal}>
-                    {/* eslint-disable react/jsx-no-comment-textnodes */}
-                    { /* eslint-disable max-len */}
-                    {/* eslint-disable i18next/no-literal-string */}
-                    <span>
-                        Elit sint consequat ullamco elit fugiat enim non voluptate. Magna deserunt cupidatat nulla in nostrud ullamco ad anim labore adipisicing. Veniam velit sit magna tempor est consequat ea culpa enim cillum.
-                    </span>
-                </Modal>
+                <LoginModal isOpen={isAuthModal} onClose={onCloseModal} />
 
             </div>
         </div>

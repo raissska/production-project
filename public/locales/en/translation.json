@@ -10,5 +10,7 @@
   "shortlang": "He",
   "login": "Login",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "userName": "UserName",
+  "password": "Password"
 }

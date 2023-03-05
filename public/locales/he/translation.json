@@ -4,9 +4,11 @@
   "language": "English",
   "notFound": "הדף לא נמצה",
   "errorPage": "שגיאה בלתי צפויה התרחשה",
-  "updatePage":"עדכון עמוד",
+  "updatePage": "עדכון עמוד",
   "throw error": "throw error",
   "toggle": "לשנות",
   "shortlang": "En",
-  "login": "Login"
+  "login": "Login",
+  "userName": "שם משתמש",
+  "password": "סיסמה"
 }
