@@ -10,5 +10,7 @@
   "shortlang": "En",
   "login": "Login",
   "userName": "שם משתמש",
-  "password": "סיסמה"
+  "password": "סיסמה",
+  "You entered an incorrect username or password": "הזנת שם משתמש או סיסמה שגויים",
+  "Logout": "להתנתק"
 }

@@ -12,5 +12,7 @@
   "increment": "increment",
   "decrement": "decrement",
   "userName": "UserName",
-  "password": "Password"
+  "password": "Password",
+  "You entered an incorrect username or password": "You entered an incorrect username or password",
+  "Logout": "Logout"
 }

@@ -1,5 +1,7 @@
 {
+  "Logout": "Logout",
   "Toggle": "Toggle",
+  "You entered an incorrect username or password": "You entered an incorrect username or password",
   "about": "about",
   "aboutPage": "aboutPage",
   "decrement": "decrement",
