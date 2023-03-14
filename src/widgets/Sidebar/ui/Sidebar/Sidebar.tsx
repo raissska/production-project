@@ -1,24 +1,19 @@
-import { FC, useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { RoutePath } from 'shared/config/routeConfig/routeConfig';
+import { memo, useState } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { AppLink } from 'shared/ui/AppLink/AppLink';
 import { Button, ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
 import { LangSwitcher } from 'shared/ui/LangSwitcher';
 import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
+import { SidebarItemList } from 'widgets/Sidebar/model/items';
+import { SidebarItem } from '../SidebarItem/SidebarItem';
 import cls from './Sidebar.module.scss';
-import AboutIcon from '../../../../shared/assets/icons/about.svg';
-import MainIcon from '../../../../shared/assets/icons/main.svg';
 
 interface SidebarProps {
   className?: string;
 }
 
-export const Sidebar: FC<SidebarProps> = (props) => {
+export const Sidebar = memo((props: SidebarProps) => {
     const { className } = props;
     const [collapsed, setCollapsed] = useState(false);
-
-    const { t } = useTranslation();
 
     const onToggle = () => {
         setCollapsed((prev) => !prev);
@@ -41,24 +36,9 @@ export const Sidebar: FC<SidebarProps> = (props) => {
             </Button>
 
             <ul className={cls.list}>
-                <li>
-
-                    <AppLink
-                        to={RoutePath.about}
-                    >
-                        <AboutIcon className={cls.icon} />
-                        <span>{t('about')}</span>
-                    </AppLink>
-                </li>
-                <li>
-
-                    <AppLink
-                        to={RoutePath.main}
-                    >
-                        <MainIcon className={cls.icon} />
-                        <span>{t('main')}</span>
-                    </AppLink>
-                </li>
+                {SidebarItemList.map((item) => (
+                    <SidebarItem key={item.path} item={item} collapsed={collapsed} />
+                ))}
             </ul>
 
             <div className={cls.switchers}>
@@ -67,4 +47,4 @@ export const Sidebar: FC<SidebarProps> = (props) => {
             </div>
         </div>
     );
-};
+});

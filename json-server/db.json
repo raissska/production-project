@@ -16,5 +16,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { 
+    "first": "Raisa",
+    "lastname": "Myronova",
+    "age": 33,
+    "currency": "USD",
+    "country": "Israel",
+    "city": "Ashdod",
+    "username": "admin",
+    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Default&skinColor=Pale"
+  }
 }
