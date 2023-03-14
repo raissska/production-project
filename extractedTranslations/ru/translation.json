@@ -1,8 +1,11 @@
 {
+  "Edit": "Edit",
   "Logout": "Logout",
   "PROFILE PAGE": "PROFILE PAGE",
   "Toggle": "Toggle",
   "You entered an incorrect username or password": "You entered an incorrect username or password",
+  "Your last name": "Your last name",
+  "Your name": "Your name",
   "about": "about",
   "aboutPage": "aboutPage",
   "decrement": "decrement",
@@ -14,6 +17,7 @@
   "mainPage": "mainPage",
   "notFound": "notFound",
   "password": "password",
+  "profile": "profile",
   "throw error": "throw error",
   "updatePage": "updatePage",
   "userName": "userName"

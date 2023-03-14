@@ -26,7 +26,7 @@ export const Input = memo((props: InputProps) => {
 
     useEffect(() => {
         if (autofocus) {
-            ref.current.focus();
+            ref.current?.focus();
         }
     }, [autofocus]);
 

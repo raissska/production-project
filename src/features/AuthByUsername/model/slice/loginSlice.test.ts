@@ -1,4 +1,4 @@
-import { DeepPartial } from '@reduxjs/toolkit';
+import { DeepPartial } from 'app/types/global';
 import { LoginSchema } from '../types/loginSchema';
 import { loginReducer, loginActions } from './loginSlice';
 

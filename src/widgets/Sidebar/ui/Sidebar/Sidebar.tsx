@@ -5,6 +5,7 @@ import { LangSwitcher } from 'shared/ui/LangSwitcher';
 import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
 import { SidebarItemList } from 'widgets/Sidebar/model/items';
 import { SidebarItem } from '../SidebarItem/SidebarItem';
+
 import cls from './Sidebar.module.scss';
 
 interface SidebarProps {
