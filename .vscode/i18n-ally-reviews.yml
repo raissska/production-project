@@ -3,3 +3,16 @@
 reviews:
   throw error:
     description: throw error
+  Your username:
+    locales:
+      en:
+        comments:
+          - user:
+              name: Raisa Myronova
+              email: raisam@rubitax.com
+            id: lmjc8kQGpj5JVyxZhWaLe
+            comment: ''
+            suggestion: ''
+            type: approve
+            time: '2023-03-16T19:10:07.189Z'
+            resolved: true

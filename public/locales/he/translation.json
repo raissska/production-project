@@ -13,5 +13,15 @@
   "userName": "שם משתמש",
   "password": "סיסמה",
   "You entered an incorrect username or password": "הזנת שם משתמש או סיסמה שגויים",
-  "Logout": "להתנתק"
+  "Logout": "להתנתק",
+  "An error occurred while loading": "אירעה שגיאה במהלך הטעינה",
+  "Try reploading the page": "נסה להעלות מחדש את העמוד",
+  "Cancel": "ביטול",
+  "Save": "להציל",
+  "Your age": "הגיל שלך",
+  "Your city": "העיר שלך",
+  "Your username": "שם המשתמש שלך",
+  "Your avatar": "הדמות שלך",
+  "Currency": "מטבע",
+  "Country": "מדינה"
 }

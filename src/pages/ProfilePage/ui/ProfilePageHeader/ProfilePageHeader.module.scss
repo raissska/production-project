@@ -1,0 +1,15 @@
+.profilePageHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .wrraperBtn {
+    display: flex;
+    justify-content: end;
+  }
+
+  .editBtn {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+}

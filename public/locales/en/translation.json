@@ -15,5 +15,14 @@
   "userName": "UserName",
   "password": "Password",
   "You entered an incorrect username or password": "You entered an incorrect username or password",
-  "Logout": "Logout"
+  "Logout": "Logout",
+  "An error occurred while loading": "An error occurred while loading",
+  "Try reploading the page": "Try reploading the page",
+  "Cancel": "Cancel",
+  "Save": "Save",
+  "Your city": "Your city",
+  "Your username": "Your username",
+  "Your avatar": "Your avatar",
+  "Currency": "Currency",
+  "Country": "Country"
 }
