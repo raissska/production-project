@@ -1,6 +1,6 @@
 .item a {
   font-size: 1.2rem;
-  color: var(--primary-color);
+  color: var(--inverted-primary-color);
   cursor: pointer;
   text-decoration: none;
   transition: all 1s;
@@ -12,16 +12,16 @@
 }
 
 .icon {
-  fill: var(--primary-color);
+  fill: var(--inverted-primary-color);
 }
 
 .item a:hover {
   background-color: #fff;
   border-radius: 7px;
-  color: rgb(22 7 36);
+  color: var(--primary-color);
 
   .icon {
-    fill: rgb(22 7 36);
+    fill: var(--primary-color);
   }
 }
 
@@ -30,5 +30,6 @@
     opacity: 0;
     transform: 0.1s opacity;
     width: 0;
+    color: var(--inverted-primary-color);
   }
 }

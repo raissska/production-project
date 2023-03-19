@@ -9,14 +9,14 @@
   font-family: inherit;
   border-radius: 8px;
   background: transparent;
-  border: 2px solid var(--secondary-color);
+  border: 2px solid var(--primary-color);
   font-size: 18px;
   padding: 0 20px 0 50px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .input:focus {
-  border-color: #157ae1;
+  border-color: var(--secondary-color);
 }
 
 .readonly {

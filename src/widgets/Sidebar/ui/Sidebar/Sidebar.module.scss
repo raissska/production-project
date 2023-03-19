@@ -34,7 +34,6 @@
 
 .list li a {
   font-size: 1.2rem;
-  color: var(--primary-color);
   cursor: pointer;
   text-decoration: none;
   transition: all 1s;
@@ -46,16 +45,16 @@
 }
 
 .icon {
-  fill: var(--primary-color);
+  fill: var(--inverted-primary-color);
 }
 
 .list li a:hover {
   background-color: #fff;
   border-radius: 7px;
-  color: rgb(22 7 36);
+  color: var(--primary-color);
 
   .icon {
-    fill: rgb(22 7 36);
+    fill: var(--primary-color);
   }
 }
 
