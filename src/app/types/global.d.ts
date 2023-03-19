@@ -5,6 +5,7 @@ declare module '*.jpeg';
 declare global {
     const __IS_DEV__: boolean;
     const __API__: string;
+    const __PROJECT__: 'storybook' | 'jest' | 'frontend';
 }
 
 export type DeepPartial<T> = T extends object ? {

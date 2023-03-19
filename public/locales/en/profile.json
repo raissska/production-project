@@ -4,5 +4,11 @@
   "Edit": "Edit",
   "Your name": "Your name",
   "Your last name": "Your last name",
-  "Your age": "Your age"
+  "Your age": "Your age",
+  "Server error": "Server error",
+  "Incorrect age": "Incorrect age",
+  "Incorrect country": "Incorrect country",
+  "Incorrect data": "Incorrect data",
+  "Incorrect user data": "Incorrect user data",
+  "No data": "No data"
 }

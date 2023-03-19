@@ -1,5 +1,5 @@
 export {
-    Profile, ProfileSchema,
+    Profile, ProfileSchema, ValidateProfileError,
 } from './model/types/profile';
 
 export { profileActions, profileReducer } from './model/slice/profileSlice';
@@ -8,6 +8,7 @@ export { updateProfileData } from './model/services/updateProfileData/updateProf
 
 export { ProfileCard } from './ui/ProfileCard/ProfileCard';
 export { getProfileData } from './model/selectors/getProfileData/getProfileData';
-export { getProfileError } from './model/selectors/getProfileFirstname/getProfileError';
+export { getProfileError } from './model/selectors/getProfileError/getProfileError';
 export { getProfileIsLoading } from './model/selectors/getProfileIsLoading/getProfileIsLoading';
 export { getProfileReadonly } from './model/selectors/getProfileReadonly/getProfileReadonly';
+export { getProfileValidateErrors } from './model/selectors/getProfileValidateError/getProfileValidateError';

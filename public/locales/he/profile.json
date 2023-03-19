@@ -3,5 +3,11 @@
   "profile": "פרופיל",
   "Edit": "לַעֲרוֹך",
   "Your name": "השם שלך",
-  "Your last name": "שם משפחתך"
+  "Your last name": "שם משפחתך",
+  "No data": "אין מידע",
+  "Incorrect user data": "נתוני משתמש שגויים",
+  "Incorrect data": "מדינה לא נכונה",
+  "Incorrect country": "מדינה לא נכונה",
+  "Incorrect age": "גיל לא נכון",
+  "Server error": "שגיאת שרת"
 }
