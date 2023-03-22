@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { Text, TextTheme } from './Text';
+import { Text, TextSize, TextTheme } from './Text';
 
 export default {
     title: 'shared/Text',
@@ -51,3 +51,12 @@ TextThemeDark.args = {
     text: 'Fugiat consequat magna fugiat aute adipisicing.Mollit cillum duis laborum ex. Nostrud est quis elit commodo. Cupidatat quis sit sunt aliquip.',
 };
 TextThemeDark.decorators = [ThemeDecorator(Theme.DARK)];
+
+export const SizeL = Template.bind({});
+
+SizeL.args = {
+    title: 'Title',
+    // eslint-disable-next-line max-len
+    text: 'Fugiat consequat magna fugiat aute adipisicing.Mollit cillum duis laborum ex. Nostrud est quis elit commodo. Cupidatat quis sit sunt aliquip.',
+    size: TextSize.L,
+};

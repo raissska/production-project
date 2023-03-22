@@ -2,7 +2,7 @@
   "about": "About us",
   "main": "Main",
   "profile": "Profile",
-  "articles":"Articles",
+  "articles": "Articles",
   "language": "Hebrew",
   "notFound": "Page not found",
   "errorPage": "An unexpected error has occurred",
@@ -25,5 +25,6 @@
   "Your username": "Your username",
   "Your avatar": "Your avatar",
   "Currency": "Currency",
-  "Country": "Country"
+  "Country": "Country",
+  "Copy": "Copy"
 }

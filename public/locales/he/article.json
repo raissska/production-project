@@ -1,4 +1,6 @@
 {
-  "articles":"מאמרים",
-  "articleDetails":"פרטי מאמר"
+  "articles": "מאמרים",
+  "articleDetails": "פרטי מאמר",
+  "Article not found": "מאמר לא נמצא",
+  "An error occurred while loading the article": "אירעה שגיאה בעת טעינת המאמר"
 }

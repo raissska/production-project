@@ -2,7 +2,7 @@
   "about": "לגבי האתר",
   "main": "בית",
   "profile": "פרופיל",
-  "articles":"מאמרים",
+  "articles": "מאמרים",
   "language": "English",
   "notFound": "הדף לא נמצה",
   "errorPage": "שגיאה בלתי צפויה התרחשה",
@@ -24,5 +24,6 @@
   "Your username": "שם המשתמש שלך",
   "Your avatar": "הדמות שלך",
   "Currency": "מטבע",
-  "Country": "מדינה"
+  "Country": "מדינה",
+  "Copy": "עותק"
 }
