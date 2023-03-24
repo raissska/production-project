@@ -2,7 +2,6 @@ import React, { memo } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
-import cls from './LangSwitcher.module.scss';
 
 interface LangSwitcherProps {
   className?: string;
@@ -20,7 +19,7 @@ export const LangSwitcher = memo((props: LangSwitcherProps) => {
 
     return (
         <Button
-            className={classNames(cls.langSwitcher, {}, [className])}
+            className={classNames('', {}, [className])}
             theme={ButtonTheme.BACKROUND_INVERTED}
             onClick={toggle}
         >
