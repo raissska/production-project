@@ -100,8 +100,15 @@
   "comments": [
     {
       "id": "1",
-      "body": "some comment",
-      "postId": 1
+      "text": "some comment",
+      "articleId": "1",
+      "userId":"1"
+    },
+    {
+      "id": "2",
+      "text": "some comment 2",
+      "articleId": "1",
+      "userId":"1"
     }
   ],
   "users": [
@@ -109,13 +116,15 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role":"ADMIN"
+      "role":"ADMIN",
+      "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Default&skinColor=Pale"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role":"USER"
+      "role":"USER",
+      "avatar": "https://avataaars.io/?avatarStyle=Circle"
     }
   ],
   "profile": {
