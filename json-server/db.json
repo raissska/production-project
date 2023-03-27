@@ -34,7 +34,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -102,13 +104,31 @@
       "id": "1",
       "text": "some comment",
       "articleId": "1",
-      "userId":"1"
+      "userId": "1"
     },
     {
       "id": "2",
       "text": "some comment 2",
       "articleId": "1",
-      "userId":"1"
+      "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Hi!",
+      "id": "fz_f6OP"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "!!!!",
+      "id": "O0eVH-n"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Hello word!",
+      "id": "GrOTwDC"
     }
   ],
   "users": [
@@ -116,25 +136,39 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role":"ADMIN",
+      "role": "ADMIN",
       "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Default&skinColor=Pale"
     },
     {
       "id": "2",
-      "username": "user",
+      "username": "user1",
       "password": "123",
-      "role":"USER",
+      "role": "USER",
       "avatar": "https://avataaars.io/?avatarStyle=Circle"
     }
   ],
-  "profile": {
-    "first": "Raisa",
-    "lastname": "Myronova",
-    "age": 33,
-    "currency": "USD",
-    "country": "Israel",
-    "city": "Ashdod",
-    "username": "admin",
-    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Default&skinColor=Pale"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Raisa",
+      "lastname": "Myronova",
+      "age": 33,
+      "currency": "USD",
+      "country": "Israel",
+      "city": "Ashdod",
+      "username": "admin",
+      "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Default&skinColor=Pale"
+    },
+    {
+      "id": "2",
+      "first": "Jack",
+      "lastname": "Anderson",
+      "age": 20,
+      "currency": "NIS",
+      "country": "Israel",
+      "city": "Tel Aviv",
+      "username": "user1",
+      "avatar": "https://avataaars.io/?avatarStyle=Circle"
+    }
+  ]
 }

@@ -6,6 +6,7 @@ import { ProfileSchema, ValidateProfileError } from '../types/profile';
 import { profileReducer, profileActions } from './profileSlice';
 
 const data = {
+    id: '1',
     first: 'Raisa',
     lastname: 'Myronova',
     age: 33,
