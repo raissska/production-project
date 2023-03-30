@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
+import { Article, ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import ArticleDetailsPage from './ArticleDetailsPage';
 
@@ -25,6 +25,10 @@ Normal.decorators = [StoreDecorator({
             views: 1022,
             createdAt: '26.02.2022',
             type: [ArticleType.IT],
+            user: {
+                id: '1',
+                username: 'Raisa',
+            },
             blocks: [
                 {
                     id: '1',
@@ -95,6 +99,6 @@ Normal.decorators = [StoreDecorator({
                     ],
                 },
             ],
-        },
+        } as Article,
     },
 })];
