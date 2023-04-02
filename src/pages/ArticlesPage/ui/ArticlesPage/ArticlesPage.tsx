@@ -1,5 +1,4 @@
 import { ArticleList, ArticleView, ArticleViewSelector } from 'entities/Article';
-import { fetchNextArticlesPage } from 'pages/ArticlesPage/model/services/fetchNextArticlesPage/fetchNextArticlesPage';
 import { memo, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import { classNames } from 'shared/lib/classNames/classNames';
@@ -8,7 +7,8 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { Page } from 'shared/ui/Page/Page';
 import { getArticlesPageIsLoading, getArticlesPageView } from '../../model/selectors/articlePageSelectors';
-import { fetchArticlesList } from '../../model/services/fetchArticlesList/fetchArticlesList';
+import { fetchNextArticlesPage } from '../../model/services/fetchNextArticlesPage/fetchNextArticlesPage';
+import { initArticlesPage } from '../../model/services/initArticlesPage/initArticlesPage';
 import { articlePageActions, articlePageReducer, getArticles } from '../../model/slice/articlePageSlice';
 import cls from './ArticlesPage.module.scss';
 
@@ -36,10 +36,7 @@ const ArticlesPage = (props: ArticlesPageProps) => {
     }, [dispatch]);
 
     useInitialEffect(() => {
-        dispatch(articlePageActions.initState());
-        dispatch(fetchArticlesList({
-            page: 1,
-        }));
+        dispatch(initArticlesPage());
     });
 
     return (
