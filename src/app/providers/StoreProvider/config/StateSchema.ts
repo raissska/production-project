@@ -13,10 +13,12 @@ import { NavigateOptions, To } from 'react-router-dom';
 import { AddCommentFormSchema } from 'features/addCommentForm';
 import { ArticlesPageSchema } from 'pages/ArticlesPage';
 import { OptionalRecord } from 'app/types/global';
+import { ScrollSaveSchema } from 'features/scrollSave';
 
 export interface StateSchema {
    counter: CounterSchema;
    user: UserScheme;
+   scrollSave: ScrollSaveSchema;
 
    // async reducers
    login?: LoginSchema;

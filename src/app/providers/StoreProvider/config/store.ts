@@ -1,10 +1,10 @@
 import {
     CombinedState,
-    configureStore, getDefaultMiddleware, Reducer, ReducersMapObject,
+    configureStore, Reducer, ReducersMapObject,
 } from '@reduxjs/toolkit';
 import { counterReducer } from 'entities/Counter';
 import { userReducer } from 'entities/User';
-import { NavigateOptions, To } from 'react-router-dom';
+import { scrollSaveReducer } from 'features/scrollSave';
 import { $api } from 'shared/api/api';
 import { createReducerManager } from './reducerManager';
 import { StateSchema } from './StateSchema';
@@ -18,6 +18,7 @@ export function createReduxStore(
         ...asyncReducers,
         counter: counterReducer,
         user: userReducer,
+        scrollSave: scrollSaveReducer,
     };
 
     const reducerManager = createReducerManager(rootReducers);
