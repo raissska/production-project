@@ -16,9 +16,5 @@ const Template: ComponentStory<typeof ArticleDetailsPage> = (args) => <ArticleDe
 export const Normal = Template.bind({});
 Normal.args = {};
 Normal.decorators = [StoreDecorator({
-    articleDetailsComments: {
-        ids: [],
-        entities: {},
-        isLoading: false,
-    },
+    articleDetailsPage: {},
 })];
