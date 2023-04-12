@@ -1,4 +1,5 @@
 {
+  "": "",
   "All": "All",
   "An error occurred while loading": "An error occurred while loading",
   "An error occurred while loading the article": "An error occurred while loading the article",
@@ -10,6 +11,8 @@
   "Comments": "Comments",
   "Copy": "Copy",
   "Country": "Country",
+  "Craete new article": "Craete new article",
+  "Create article": "Create article",
   "Currency": "Currency",
   "Descending": "Descending",
   "Economics": "Economics",
@@ -31,6 +34,7 @@
   "Send": "Send",
   "Server error": "Server error",
   "Sort by": "Sort by",
+  "TechBlog App": "TechBlog App",
   "Try reploading the page": "Try reploading the page",
   "You entered an incorrect username or password": "You entered an incorrect username or password",
   "Your age": "Your age",
