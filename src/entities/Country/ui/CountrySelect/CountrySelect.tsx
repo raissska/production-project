@@ -1,8 +1,8 @@
-import { Country } from 'entities/Country/model/types/country';
 import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Select } from 'shared/ui/Select/Select';
+import { Country } from '../../../Country/model/types/country';
 
 const optionsList = [
     { value: Country.Israel, content: Country.Israel },
