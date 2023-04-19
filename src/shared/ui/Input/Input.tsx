@@ -3,6 +3,7 @@ import React, {
 } from 'react';
 import { classNames, Mods } from 'shared/lib/classNames/classNames';
 import cls from './Input.module.scss';
+import { HStack } from '../Stack';
 
 type HTMLInputProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'value' | 'onChange' | 'readOnly'>
 
@@ -36,7 +37,7 @@ export const Input = memo((props: InputProps) => {
     };
 
     return (
-        <div className={classNames(cls.inputWrapper, mods, [className])}>
+        <HStack max className={classNames(cls.inputWrapper, mods, [className])}>
             <input
                 ref={ref}
                 className={cls.input}
@@ -47,6 +48,6 @@ export const Input = memo((props: InputProps) => {
                 readOnly={readonly}
                 {...otherProps}
             />
-        </div>
+        </HStack>
     );
 });

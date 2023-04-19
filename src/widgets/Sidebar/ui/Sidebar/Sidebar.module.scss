@@ -26,10 +26,7 @@
 
 .list {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   list-style: none;
-  gap: 10px;
 }
 
 .list li a {
@@ -37,9 +34,6 @@
   cursor: pointer;
   text-decoration: none;
   transition: all 1s;
-  display: flex;
-  justify-content: start;
-  gap: 20px;
   padding: 10px 20px;
   opacity: 1;
 }

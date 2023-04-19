@@ -2650,6 +2650,24 @@
       "userId": "2",
       "text": "Hello word!",
       "id": "GrOTwDC"
+    },
+    {
+      "articleId": "4",
+      "userId": "1",
+      "text": "comment1",
+      "id": "gZqdjOP"
+    },
+    {
+      "articleId": "4",
+      "userId": "1",
+      "text": "comment 2",
+      "id": "yE8sdFh"
+    },
+    {
+      "articleId": "4",
+      "userId": "1",
+      "text": "",
+      "id": "S9Xwc-3"
     }
   ],
   "users": [
