@@ -59,3 +59,18 @@ SizeL.args = {
     text: 'Fugiat consequat magna fugiat aute adipisicing.Mollit cillum duis laborum ex. Nostrud est quis elit commodo. Cupidatat quis sit sunt aliquip.',
     size: TextSize.L,
 };
+export const SizeM = Template.bind({});
+SizeM.args = {
+    title: 'Title',
+    // eslint-disable-next-line max-len
+    text: 'Fugiat consequat magna fugiat aute adipisicing.Mollit cillum duis laborum ex. Nostrud est quis elit commodo. Cupidatat quis sit sunt aliquip.',
+    size: TextSize.M,
+};
+
+export const SizeS = Template.bind({});
+SizeS.args = {
+    title: 'Title',
+    // eslint-disable-next-line max-len
+    text: 'Fugiat consequat magna fugiat aute adipisicing.Mollit cillum duis laborum ex. Nostrud est quis elit commodo. Cupidatat quis sit sunt aliquip.',
+    size: TextSize.S,
+};
