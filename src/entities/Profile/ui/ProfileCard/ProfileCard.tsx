@@ -121,6 +121,7 @@ export const ProfileCard = memo((props: ProfileCardProps) => {
                 value={data?.currency}
                 onChange={onChangeCurrency}
                 readonly={readonly}
+
             />
             <CountrySelect
                 className={cls.input}
