@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  line-height: 5rem;
   min-height: var(--navbar-height);
 }
 
@@ -19,6 +18,12 @@
   font-size: 2.5rem;
   cursor: pointer;
   color: var(--primary-color);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .checkBtn {
